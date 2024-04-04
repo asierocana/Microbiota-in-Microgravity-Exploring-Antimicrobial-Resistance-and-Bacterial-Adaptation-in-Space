@@ -14,7 +14,7 @@ This project aims to conduct a metagenomic analysis of fecal samples from female
 
 3. Data Processing: Raw sequences are processed using Fastp to remove adapters and filter out low-quality sequences, generating clean sequences ready for the next step.
 
-4.Reassessment of Quality: FastQC is again employed to evaluate the quality of processed sequences and confirm the effectiveness of the cleaning process.
+4. Reassessment of Quality: FastQC is again employed to evaluate the quality of processed sequences and confirm the effectiveness of the cleaning process.
 
 5. Downsampling of 10% of Reads: The amount of data is reduced by randomly selecting 10% of the processed reads.
 
@@ -40,11 +40,16 @@ Verify the results of each step to ensure the quality and accuracy of the analys
 Perform any additional analysis or data processing as necessary to meet the project objectives.
 
 # References
-FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ 
+
 Fastp: https://github.com/OpenGene/fastp
+
 MetaSPAdes: https://github.com/ablab/spades
+
 Kraken2: https://ccb.jhu.edu/software/kraken2/
+
 MetaBAT2: https://bitbucket.org/berkeleylab/metabat
+
 Abricate: https://github.com/tseemann/abricate
 
 # Author
